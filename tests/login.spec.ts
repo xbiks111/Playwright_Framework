@@ -40,7 +40,8 @@ test.describe('Suace Demo Login test', async () => {
         await loginPageFixture.performLogin(lockedUser,password)
         expect(await loginPageFixture.getErrorText()).toContain(erroMessage)
 
-        // this is for git
+        // this is for git Bikrambranch
+        // 28 Aug
 
     })
 
